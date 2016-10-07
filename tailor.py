@@ -104,7 +104,7 @@ def remove_old_yarn_logs(applicationId):
         pass
 
 if __name__ == "__main__":
-    yarn_master = "localhost"
+    yarn_master = "localhost:8088"
     slack_hook = "https://hooks.slack.com/services/<9-char>/<9-char>/<24-char>"
     upload_token = "<50-char>"
     slack_channel = "#test"
